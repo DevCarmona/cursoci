@@ -9,7 +9,7 @@ class Helloworld extends BaseController
 
     public function hellopersonalizado($nome)
     {
-        echo "<h1>Olá $nome!</h1>";
+        echo "<h1>Hello, $nome!</h1>";
     }
 
     public function infoproduto($produto_id)
